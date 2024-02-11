@@ -18,5 +18,7 @@ public class AppTest
     {
     	System.out.println("Testing");
         assertEquals(5,Calculator.sum(2, 3));
+        System.out.println("Testing 2");
+        assertEquals(5,Calculator.sum(3, 3));
     }
 }
